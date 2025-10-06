@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #ffffff;
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #020617;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #4fa84c;
+  max-width: 600px;
+}
+
+.scroll-container {
+  position: relative;
+  padding: 0 0 100px;
+}
+
+.card-container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.card {
+  position: relative;
+  width: 90%;
+  max-width: 1100px;
+  height: 400px;
+  background: linear-gradient(135deg, #334155 0%, #1e293b 100%);
+  border-radius: 24px;
+  display: flex;
+  overflow: hidden;
+}
+
+.card-left {
+  flex: 0 0 400px;
+  background: #1e293b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.card-right {
+  flex: 1;
+  padding: 50px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #93c5fd;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #f1f5f9;
+}
+
+.card-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #cbd5e1;
+  margin-bottom: 28px;
+}
+
+.card-button {
+  width: fit-content;
+  padding: 14px 32px;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background: #4f46e5;
+}
+}
+
+@media (max-width: 968px) {
+  .card {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card-left {
+    flex: 0 0 200px;
+  }
+
+  .card-right {
+    padding: 30px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+}
