@@ -48,7 +48,7 @@ const FloatCards = () => {
     <>
       <div className="app">
         <div className="hero">
-          <p>Who we are (What we build for)</p>
+          <p>WHO WE ARE (WHAT WE BUILD FOR)</p>
           <h1>Built for people who understands finance</h1>
         </div>
 

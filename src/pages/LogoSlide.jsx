@@ -35,10 +35,10 @@ export default function LogoSlide() {
     },
     logo: {
       height: "50px",
-      width: "auto",
+      width: "120px",
       objectFit: "contain",
-      filter: "grayscale(100%)",
-      opacity: 0.7,
+      // filter: "grayscale(100%)",
+      // opacity: 0.7,
       transition: "all 0.3s ease"
     }
   };
@@ -46,27 +46,27 @@ export default function LogoSlide() {
   const logos = [
     {
       name: "Mainstreet",
-      url: "https://logo.clearbit.com/mainstreet.com"
+      url: "/images/logo1.png"
     },
     {
       name: "MARS",
-      url: "https://logo.clearbit.com/mars.com"
+      url: "/images/logo2.png"
     },
     {
       name: "GTI",
-      url: "https://logo.clearbit.com/gti.com"
+      url: "/images/logo3.png"
     },
     {
       name: "Nativeland",
-      url: "https://logo.clearbit.com/nativeland.com"
+      url: "/images/logo4.png"
     },
     {
       name: "Slim Pay",
-      url: "https://logo.clearbit.com/stripe.com"
+      url: "/images/logo5.png"
     },
     {
       name: "AGRIC",
-      url: "https://logo.clearbit.com/agriculture.com"
+      url: "/images/logo6.png"
     }
   ];
 
@@ -81,8 +81,6 @@ export default function LogoSlide() {
     }
 
     .logo-item:hover img {
-      filter: grayscale(0%) !important;
-      opacity: 1 !important;
       transform: scale(1.05);
     }
   `;

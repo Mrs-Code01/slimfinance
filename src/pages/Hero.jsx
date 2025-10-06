@@ -51,10 +51,10 @@ export default function SlimFinanceLanding() {
     nav: {
       backgroundColor: "white",
       borderRadius: "50px",
-      padding: "14px 40px",
+      padding: "14px 20px",
       display: "flex",
       alignItems: "center",
-      gap: "48px",
+      gap: "88px",
       boxShadow: "0 2px 20px rgba(0,0,0,0.1)",
       position: "relative"
     },

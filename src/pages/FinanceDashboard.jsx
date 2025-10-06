@@ -265,7 +265,7 @@ export default function FinanceDashboard() {
 
         <div style={styles.dashboardPreview}>
           <img
-            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop"
+            src="/images/dashboard.png"
             alt="Financial Dashboard"
             style={{
               width: "100%",
